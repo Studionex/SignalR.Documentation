@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <PackageId>SignalR.Documentation</PackageId>
+    <Authors>alizedan</Authors>
+    <PackageProjectUrl>https://github.com/Studionex/SignalR.Documentation</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Studionex/SignalR.Documentation</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2026 alizedan</Copyright>
+    <Version>1.0.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>signalr;documentation;aspnetcore;reflection;schemas</PackageTags>
+    <PackageReleaseNotes>Initial release: hub discovery, nested object schemas, searchable documentation UI, and shared model definitions.</PackageReleaseNotes>
+    <Description>Standalone reflection-based SignalR documentation and schema viewer.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
